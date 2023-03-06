@@ -7,70 +7,61 @@
   <title>Document</title>
 </head>
 <body>
-  <!-- Include the tag for introductory content -->
-
-    <!-- Display sysk logo nested in an anchor tag to link to index.html -->
-  
-    <!-- Write the markup for a navigation and link items to appropriate pages -->
-    About
-    Episodes
-
-
-
-  <!-- Add an element that represents the main content of the page --> 
-
-
-    <!-- Include a tag that groups the information about this particular podcast -->
-
-      <!-- Display image relevant to topic -->
-
-      <!-- Main heading for the page -->
-      The History of Fake Towns
-
-      October 18, 2022
-      51 min
-
-      There have been a lot of fake towns built throughout history for a lot of different reasons. Tune in to learn about some of these bogus burbs.
-
-      <!-- Link to external url: https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/">Click here to play episode on iHeart -->
-      Click here to play episode on iHeart
+  <header role="banner">
+    <a href="../index.html">
+      <img src="../images/sysk-logo.webp" alt="SYSK Logo"/>
+    </a>
+    <nav role="navigation" id="nav">
+      <ul>
+        <li><a href="../about.html"> About</a></li>
+        <li><a href="episodes.html">Episodes</a></li>
+     </ul>
+    </nav> 
+  </header>
 
 
-    <!-- Include a tag that groups the other two podcasts -->  
+  <main role="main">
 
-      <!-- Section heading -->      
-      You might also like...
+    <section>
+      <img src="../images/fake-towns.jpeg" alt="image of fake town"/>
+      <h1>The History of Fake Towns</h1>
 
-      <!-- Include a tag for independent, self-contained content content -->
+      <p>October 18, 2022
+      51 min</p>
+
+      <p>There have been a lot of fake towns built throughout history for a lot of different reasons. Tune in to learn about some of these bogus burbs.</p>
+
+      <a href="https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/episode/the-history-of-fake-towns-103424179/">Click here to play episode on iHeart</a>
+
+    </section>
+    <section>
+      <h2>You might also like...</h2>
+
+      <article> 
+        <h3>Interesting Origins of Everday phrases</h3>
+
+        <img src="../images/everyday-phrases.jpeg" alt="picture of jumbled words"/>
+
+        <p>We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!</p>
         
-        <!-- Section sub-heading -->
-        Interesting Origins of Everday phrases
+        <a href="everyday-phrases.html" aria label="Learn more about the Iheart episode on the Origins of Everyday Phrases">Learn more</a>
+      </article>
 
-        <!-- Display image relevant to topic -->
+      <article>
+        <h3>Doppelgängers: Hey you, you're me!</h3>
 
-        We don’t think about the words and phrases we use all the time - until Josh and Chuck look into them and tell everyone what they found. That’s the gist of this episode!
-        
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
+        <img src="../images/doppelgangers.jpeg" alt="picture of doppelgangers"/>
 
+        <p>Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!</p>
 
-      <!-- Include a tag for independent, self-contained content content -->
-        
-        <!-- Section sub-heading -->
-        Doppelgängers: Hey you, you're me!
+        <a href="doppelgangers.html"aria label="Learn more about the IHeart episode on Doppelgangers">Learn more</a>
+      </article>
+    </section>  
+  </main>    
 
-        <!-- Display image relevant to topic -->
-        
-        Seeing your near twin is probably pretty weird. But could there be a genetic commonality as well? You bet there could!
-
-        <!-- Link to existing html page within episodes directory; relevant to topic -->
-        Learn more
-     
-
-        
-  <!-- Include the tag for footer content -->
-  &copy; SYSK 2023
-  
+  <footer role="contentinfo">
+    <p><small>&copy; SYSK 2023</small></p>
+    </footer>
     
 </body>
 </html>
